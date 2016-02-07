@@ -51,6 +51,14 @@ header {
   top: 0;
 }
 
+h1 {
+  color: #9900FF;
+}
+
+a {
+  color: white;
+}
+
 .navigation ul {
   padding: 0;
 }
@@ -60,15 +68,20 @@ header {
 }
 
 .navigation li:first-child a {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #fff;
 }
 
 .navigation li a {
   display: block;
   text-align: center;
   padding: .5em 1em;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
   text-decoration: none;
+  background-color: #d9d1ff;
+}
+
+.navigation li a:hover {
+  background-color: #8b93d9;
 }
 
 .toggle-btn,

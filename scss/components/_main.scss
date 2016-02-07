@@ -39,6 +39,14 @@ header {
   top: 0;
 }
 
+h1 {
+  color: $purple;
+}
+
+a {
+  color: white;
+}
+
 .navigation {
   ul{
     padding: 0;
@@ -46,14 +54,18 @@ header {
   li {
     list-style-type: none;
     &:first-child a{
-      border-top: 1px solid $light-grey;
+      border-top: 1px solid $white;
     }
   a {
     display: block;
     text-align: center;
     padding: .5em 1em;
-    border-bottom: 1px solid $light-grey;
+    border-bottom: 1px solid $white;
     text-decoration: none;
+    background-color: $light-purple;
+    &:hover {
+      background-color: $dark-purple;
+    }
   }
   } //li
 } // navigation
