@@ -73,7 +73,7 @@ a {
 
 .toggle-btn,
 .close-btn {
-  color: $text-color;
+  color: $dark-purple;
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -82,7 +82,7 @@ a {
     width: 40px;
     display: inline-block;
     padding: 13px 11px;
-    border: 1px solid $light-grey;
+    border: 1px solid $light-purple;
   }
   span{
     @include element-invisible;

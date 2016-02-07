@@ -86,7 +86,7 @@ a {
 
 .toggle-btn,
 .close-btn {
-  color: #222;
+  color: #8b93d9;
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -98,7 +98,7 @@ a {
   width: 40px;
   display: inline-block;
   padding: 13px 11px;
-  border: 1px solid #ccc;
+  border: 1px solid #d9d1ff;
 }
 
 .toggle-btn span,
