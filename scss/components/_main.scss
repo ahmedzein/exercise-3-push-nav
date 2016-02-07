@@ -84,6 +84,7 @@ a {
     padding: 13px 11px;
     border: 1px solid $light-purple;
   }
+  
   span{
     @include element-invisible;
   }
@@ -111,12 +112,12 @@ a {
       width: 100%;
       height: 100%;
       position: relative;
-      transform: translateX(0);
+      transform: translateY(0);
       transition: all 300ms ease-in-out;
     }
     
     &[data-state='slide-open'] .sliding-canvas {
-      transform: translateX(-100%);  
+      transform: translateY(-100%);  
     }
     
     &[data-state='slide-open']{
@@ -128,11 +129,11 @@ a {
   .navigation{
     position: absolute;
     width: 100%;
-    right: -100%;
-    top: 0;
+    right: 0;
+    top: 250%;
     bottom: 0;
     padding: 0;
-    min-height: 800px;
+    min-height: 900px;
   }
 }//media
 
